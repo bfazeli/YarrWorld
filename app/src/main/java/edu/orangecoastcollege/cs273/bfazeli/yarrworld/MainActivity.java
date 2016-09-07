@@ -1,5 +1,6 @@
 package edu.orangecoastcollege.cs273.bfazeli.yarrworld;
 
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Define the button as an instance variable (member variable)
     Button speakButton;
+    private Context context = this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,8 +28,10 @@ public class MainActivity extends AppCompatActivity {
         speakButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Hook up the toast_text to our view
-                Toast.makeText(MainActivity.this,R.string.toast_text, Toast.LENGTH_SHORT).show();
+                // Use the static reference to "Toast" to display the message:
+                // Toast = vanishes after set amount of time
+                // Dialog = requires user input
+                Toast.makeText(context, R.string.toast_text, Toast.LENGTH_LONG).show();
             }
         });
     }

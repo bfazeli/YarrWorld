@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">yarr Mundial</string>
+    <string name="button_text">TIEMBLA LAS MADERAS</string>
+    <string name="image_text"> logotipo del pirata de Orange Coast College</string>
+    <string name="toast_text">Yarr mundo!</string>
+    <string name="welcome_text">Bienvenido a Orange Coast College</string>
+</resources>
