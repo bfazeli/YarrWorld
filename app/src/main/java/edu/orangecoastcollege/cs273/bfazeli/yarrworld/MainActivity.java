@@ -9,6 +9,9 @@ import android.widget.Toast;
 
 /**
  * Controller for the Android YarrWorld project
+ *
+ * @author: Bijan Fazeli(bfazeli)
+ * @date: Sept 8, 2016
  */
 public class MainActivity extends AppCompatActivity {
 
