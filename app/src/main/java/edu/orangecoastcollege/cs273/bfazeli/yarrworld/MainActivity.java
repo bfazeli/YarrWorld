@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+/**
+ * Controller for the Android YarrWorld project
+ */
 public class MainActivity extends AppCompatActivity {
 
     // Define the button as an instance variable (member variable)
